@@ -1,0 +1,8 @@
+"Resource: /Users/oscarso/Desktop/All Folders/Sophomore Sem 1/CS 3110/OCaml-A0/a0/checktypes.ml": "\154\016P\240\252\"+\bC\194\217\242O\178\170q"
+"Resource: /Users/oscarso/Desktop/All Folders/Sophomore Sem 1/CS 3110/OCaml-A0/a0/warmup.ml": "j\143;W\132MA0\224\246\228\228\227\001\253^"
+"Rule: ocaml dependencies ml (%=checktypes )": "\255\188\236~t\142A\218jG=i\198jb\023"
+"Rule: ocaml: ml -> cmo & cmi (%=warmup )": "\155\015\233\254\181\166\1648\253\244\178\129Hz\174\182"
+"Rule: ocaml: cmo* -> byte (%=checktypes )": "%\203P\150\144\142j4\221\191\208\158T9\148\139"
+"Rule: ocaml: ml -> cmo & cmi (%=checktypes )": "u\135\240H\187\247\245d\005\193\162\134\1669\0191"
+"Rule: ocaml: cmo* -> byte (%=warmup )": "b\183!\207\171\245\006\141\221\219\151\182EF{I"
+"Rule: ocaml dependencies ml (%=warmup )": "\006\145|\197Q\248#P\157\002\b`M\230g\206"

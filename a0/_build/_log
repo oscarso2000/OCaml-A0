@@ -1,0 +1,12 @@
+### Starting build.
+# Target: checktypes.ml.depends, tags: { extension:ml, file:checktypes.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules checktypes.ml > checktypes.ml.depends # cached
+# Target: warmup.ml.depends, tags: { extension:ml, file:warmup.ml, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules warmup.ml > warmup.ml.depends # cached
+# Target: warmup.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:warmup.cmo, file:warmup.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -o warmup.cmo warmup.ml # cached
+# Target: checktypes.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:checktypes.cmo, file:checktypes.ml, implem, ocaml, quiet }
+ocamlfind ocamlc -c -o checktypes.cmo checktypes.ml
+# Target: checktypes.byte, tags: { byte, dont_link_with, extension:byte, file:checktypes.byte, link, ocaml, program, quiet }
+ocamlfind ocamlc -linkpkg warmup.cmo checktypes.cmo -o checktypes.byte
+# Compilation successful.
